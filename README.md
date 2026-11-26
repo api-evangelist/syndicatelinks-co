@@ -1,4 +1,4 @@
-# syndicatelinks-co
+# Syndicate Links
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-syndicatelinks-co is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://syndicatelinks.co/
+Syndicate Links provides affiliate infrastructure for the agent economy, offering a REST API that enables merchants, publishers, agencies, and AI agents to create, track, and payout commissions on referrals. The platform supports multiple payout rails including Stripe, Bitcoin Lightning, USDC, and USDT on Base, and includes tools for attribution, fraud protection, and real‑time analytics. It aims to give publishers verifiable receipts for their referrals without relying on merchant dashboards.
+
+**Areas:** Affiliate · API · Payments · AI · Attribution · Commerce
+
+## Syndicate Links on APIs.io
+
+Everything profiled for Syndicate Links is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/syndicatelinks-co/](https://apis.io/providers/syndicatelinks-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Syndicate Links API](https://apis.io/apis/syndicatelinks-co/syndicatelinks-co-api/) — Syndicate Links API as documented publicly: 41 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Syndicatelinks Co Webhooks](https://apis.io/asyncapis/syndicatelinks-co/syndicatelinks-co-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostAffiliateEventsClickRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-click-request/)
+- [PostAffiliateEventsClickResponse](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-click-response/)
+- [PostAffiliateEventsConversionRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-conversion-request/)
+- [PostAffiliateEventsConversionResponse](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-conversion-response/)
+- [PostMerchantProductsRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-merchant-products-request/)
+- [PostV1TrackRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-v1-track-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Syndicatelinks Co Context](https://apis.io/jsonld/syndicatelinks-co/syndicatelinks-co-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Syndicate Links API Rules](https://apis.io/rules/syndicatelinks-co/syndicatelinks-co-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Syndicate Links Authentication](https://apis.io/security/syndicatelinks-co/syndicatelinks-co-authentication/)
+- [Syndicate Links Domain Security](https://apis.io/security/syndicatelinks-co/syndicatelinks-co-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Syndicate Links Plans Pricing](https://apis.io/plans/syndicatelinks-co/syndicatelinks-co-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://syndicatelinks.co/)
+- [Documentation](https://syndicatelinks.co/docs/)
+- [Getting started](https://syndicatelinks.co/docs/getting-started)
+- [API reference](https://syndicatelinks.co/docs/api-reference)
+- [Pricing](https://syndicatelinks.co/pricing)
+- [Support](https://syndicatelinks.co/contact)
+- [Blog](https://syndicatelinks.co/blog)
+- [Terms of service](https://syndicatelinks.co/terms)
+- [Privacy policy](https://syndicatelinks.co/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.5** — strong · rubric 0.29.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 64.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.1 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 48.5 |
+
+**Agent readiness 42.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | verified |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | signal |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 15.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/syndicatelinks-co/](https://apis.io/providers/syndicatelinks-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Syndicate Links: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/syndicatelinks-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
