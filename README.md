@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Syndicate Links provides affiliate infrastructure for the agent economy, offering a REST API that enables merchants, publishers, agencies, and AI agents to create, track, and payout commissions on referrals. The platform supports multiple payout rails including Stripe, Bitcoin Lightning, USDC, and USDT on Base, and includes tools for attribution, fraud protection, and real‑time analytics. It aims to give publishers verifiable receipts for their referrals without relying on merchant dashboards.
+Syndicate Links provides an affiliate infrastructure platform enabling merchants, publishers, agencies, and AI agents to capture referrals, attribute commissions, and automate payouts via a RESTful API. The service offers multi‑rail payouts (Stripe, Bitcoin Lightning, USDC/USDT), real‑time analytics, fraud protection, and developer‑first tools, with a free tier for individuals and scalable pricing for enterprises. It aims to create transparent, verifiable receipt of value exchange in the agent economy.
 
-**Areas:** Affiliate · API · Payments · AI · Attribution · Commerce
+**Areas:** Affiliate · Payments · API · AgentEconomy · Commerce
 
 ## Syndicate Links on APIs.io
 
@@ -74,7 +74,7 @@ Everything profiled for Syndicate Links is published on APIs.io rather than in t
 
 ### APIs (1)
 
-- [Syndicate Links API](https://apis.io/apis/syndicatelinks-co/syndicatelinks-co-api/) — Syndicate Links API as documented publicly: 41 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own…
+- [Syndicate Links API](https://apis.io/apis/syndicatelinks-co/syndicate-links-api/) — Affiliate infrastructure platform API as described in the API Reference documentation.
 
 ### Published properties
 
@@ -85,29 +85,6 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Event-driven and webhook contracts.
 
 - [Syndicatelinks Co Webhooks](https://apis.io/asyncapis/syndicatelinks-co/syndicatelinks-co-webhooks/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [PostAffiliateEventsClickRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-click-request/)
-- [PostAffiliateEventsClickResponse](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-click-response/)
-- [PostAffiliateEventsConversionRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-conversion-request/)
-- [PostAffiliateEventsConversionResponse](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-affiliate-events-conversion-response/)
-- [PostMerchantProductsRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-merchant-products-request/)
-- [PostV1TrackRequest](https://apis.io/schemas/syndicatelinks-co/syndicatelinks-co-post-v1-track-request/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Syndicatelinks Co Context](https://apis.io/jsonld/syndicatelinks-co/syndicatelinks-co-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [Syndicate Links API Rules](https://apis.io/rules/syndicatelinks-co/syndicatelinks-co-rules/)
 
 #### Security (2)
 
@@ -127,29 +104,28 @@ Published plans, tiers and prices.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://syndicatelinks.co/)
-- [Documentation](https://syndicatelinks.co/docs/)
+- [Documentation](https://syndicatelinks.co/docs)
 - [Getting started](https://syndicatelinks.co/docs/getting-started)
 - [API reference](https://syndicatelinks.co/docs/api-reference)
 - [Pricing](https://syndicatelinks.co/pricing)
-- [Support](https://syndicatelinks.co/contact)
 - [Blog](https://syndicatelinks.co/blog)
 - [Terms of service](https://syndicatelinks.co/terms)
 - [Privacy policy](https://syndicatelinks.co/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 55.5** — strong · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 36.6** — thin · rubric 0.28.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 83.9 |
-| Contract quality | 64.4 |
-| Contract governance | 79.1 |
+| Discoverability | 67.9 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
 | Operational transparency | 7.1 |
-| Developer ergonomics | 57.1 |
+| Developer ergonomics | 52.4 |
 | Access clarity | 48.5 |
 
-**Agent readiness 42.2** — agent-ready (gated down from agent-native)
+**Agent readiness 43.0** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -162,10 +138,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Error Semantics | — |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
-| Event Surface Described | verified |
+| Event Surface Described | unknown |
 | Agent Skills | — |
 | Well Known Catalog | yes |
-| Consent Identity | signal |
+| Consent Identity | — |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -173,13 +149,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | — |
+| Operation Distinctiveness | na |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
-**Regulatory alignment 15.8** — Payments
+**Regulatory alignment 12.5** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/syndicatelinks-co/](https://apis.io/providers/syndicatelinks-co/).
 
